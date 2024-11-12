@@ -1,0 +1,30 @@
+{
+  "name": "nmb-html-boilerplate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "grunt": "grunt",
+    "copy:3rdplugins": "robocopy ./assets/plugins ./dist/assets/plugins /MIR"
+  },
+  "keywords": [
+    "boilerplate",
+    "html",
+    "css",
+    "js",
+    "grunt",
+    "minify",
+    "bootstrap",
+    "node"
+  ],
+  "author": "Nazım Mert Bilgi",
+  "license": "ISC",
+  "description": "Application boilerplate for making websites with html, Bootstrap and jQuery. compresses css, js, img files. Converts all images to webp format. Automatically makes changes to all html files. You only focus on the coding part.",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-cwebp": "^3.0.3"
+  }
+}

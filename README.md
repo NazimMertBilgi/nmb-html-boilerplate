@@ -22,11 +22,11 @@ Klasör yapısına uygun olarak kodlamanızı yapın ve `npm run build` çalış
 
 ## Video - 1 ( Live Reload and QR Code )
 
-video-livereload-and-qr-code.mp4
+https://github.com/user-attachments/assets/28de027c-0ec3-4e80-ad10-726982576b5c
 
 ## Video - 2 ( Build )
 
-video-build.mp4
+https://github.com/user-attachments/assets/705b49db-3bee-43ea-9a19-16529a9f3322
 
 ## Lets Try
 

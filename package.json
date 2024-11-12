@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
+    "start": "start http://localhost:7007 & nodemon start.js --ext *",
     "build": "node index.js",
     "grunt": "grunt",
     "copy:3rdplugins": "robocopy ./assets/plugins ./dist/assets/plugins /MIR"
@@ -21,10 +22,18 @@
   "license": "ISC",
   "description": "Application boilerplate for making websites with html, Bootstrap and jQuery. compresses css, js, img files. Converts all images to webp format. Automatically makes changes to all html files. You only focus on the coding part.",
   "devDependencies": {
+    "connect-livereload": "^0.6.1",
     "grunt": "^1.6.1",
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-htmlmin": "^3.1.0",
     "grunt-contrib-uglify": "^5.2.2",
-    "grunt-cwebp": "^3.0.3"
+    "grunt-cwebp": "^3.0.3",
+    "livereload": "^0.9.3",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "qrcode": "^1.5.4",
+    "serve-static": "^1.16.2"
   }
 }

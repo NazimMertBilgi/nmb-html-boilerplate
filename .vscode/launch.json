@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch NMB Boilerplate",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "start"
+            ],
+        }
+    ]
+}

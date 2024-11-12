@@ -11,6 +11,16 @@
       },
       "problemMatcher": [],
       "label": "npm: build"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "group": {
+        "kind": "none",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "npm: start"
     }
   ]
 }

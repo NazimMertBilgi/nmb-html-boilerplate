@@ -15,6 +15,8 @@ Klasör yapısına uygun olarak kodlamanızı yapın ve `npm run build` çalış
 ## Lets Try
 
 `git clone https://github.com/NazimMertBilgi/nmb-html-boilerplate firstAwesomeApp`
+`npm install`
+`npm run build`
 
 
 ## Scripts

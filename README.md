@@ -12,6 +12,11 @@ Html, Bootstrap ve jQuery ile web siteleri yapmak için uygulama ortak metini. c
 
 Klasör yapısına uygun olarak kodlamanızı yapın ve `npm run build` çalıştırın. VS Code kullanıyorsanız `Ctrl + Shift + B` kullanın.
 
+## Lets Try
+
+`git clone https://github.com/NazimMertBilgi/nmb-html-boilerplate firstAwesomeApp`
+
+
 ## Scripts
 - `build`: Runs the build process using `node index.js`.
 - `grunt`: Runs Grunt tasks.

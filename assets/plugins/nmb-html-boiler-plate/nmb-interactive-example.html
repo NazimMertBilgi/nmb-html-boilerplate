@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMB Interactive Plugin</title>
+    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Welcome {{pageName}} Page</h1>
+                <h3>Name Surname: {{nameSurname}}</h3>
+                <p><span>{{calculate1Text}}</span> = <span>{{num(4 + 2)}}</span></p>
+                <p><span>{{calculate2Text}}</span> = <span>{{num(calculate)}}</span></p>
+                <p><span>{{isEqualText}}</span> = <span>{{bool(isEqual)}}</span></p>
+                <p><span>{{isTrueText}}</span> = <span>{{bool(isTrue)}}</span></p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <button class="btn btn-primary" onclick="changeVariableValues()">Change Variable Values 🔥</button>
+        </div>
+    </div>
+
+    <script id="nmb-html-boiler-plate-js">
+        let pageName = 'Home';
+        let nameSurname = 'John Doe';
+        let calculate = (2 * 2);
+        const calculate1Text = '4 + 2';
+        const calculate2Text = '2 * 2';
+        const isEqual = ("A" == "B");
+        const isEqualText = "A == B";
+        const isTrue = (12 > 10);
+        const isTrueText = '12 > 10';
+
+        function changeVariableValues() {
+            window.pageName.value = 'Interactive';
+            window.nameSurname.value = 'NMB';
+            window.calculate2Text.value = '2 / 1';
+            window.calculate.value = (2 / 1);
+            window.isEqual.value = ("A" == "A");
+            window.isEqualText.value = ("A == A");
+            window.isTrue.value = (8 > 15);
+            window.isTrueText.value = "8 > 15";
+        }
+
+        document.addEventListener('nmbInteractiveLoaded', function (e) {
+            console.log(`nmbInteractiveLoaded: ${e.detail.isLoaded}`);
+        });
+
+        document.addEventListener('nmbInteractiveVariableChanged', function (e) {
+            console.table(`nmbInteractiveVariableChanged:`, e.detail);
+        });
+
+
+    </script>
+    <script src="nmb.interactive.js"></script>
+</body>
+
+</html>

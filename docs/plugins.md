@@ -17,7 +17,9 @@ follow these steps:
 1. **Script file or content** of `NMBInteractiveJS` can be used in two ways.
     ```javascript
     <script id="nmb-html-boiler-plate-js" src="assets/js/home/home.js"></script>
-    <script src="assets/plugins/nmb-html-boiler-plate/nmb.interactive.js"></script>
+    <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
+    // or
+    <script src="https://raw.githubusercontent.com/NazimMertBilgi/nmb-html-boilerplate/refs/heads/master/assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
     ```
 
     or
@@ -30,7 +32,7 @@ follow these steps:
         window.helloWorld.value = "Hello World! Changed!"
     }
     </script>
-    <script src="assets/plugins/nmb-html-boiler-plate/nmb.interactive.js"></script>
+    <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
      ```
 
 2. **Now let's print the variable helloWorld to the screen.** add it to your related html page.
@@ -87,7 +89,7 @@ document.addEventListener('nmbInteractiveLoaded', function (e) {
     <script id="nmb-html-boiler-plate-js">
       let helloWorld = "Hello World";
     </script>
-    <script src="assets/plugins/nmb-html-boiler-plate/nmb.interactive.js"></script>
+    <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
      ```
 
 2. **HTML**
@@ -108,7 +110,7 @@ document.addEventListener('nmbInteractiveLoaded', function (e) {
       let calculate = (2*2); // we must enclose the relevant calculation in brackets.
       let calculate2 = ((2+2) * (4*4));
     </script>
-    <script src="assets/plugins/nmb-html-boiler-plate/nmb.interactive.js"></script>
+    <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
      ```
 
 2. **HTML**
@@ -132,7 +134,7 @@ document.addEventListener('nmbInteractiveLoaded', function (e) {
     <script id="nmb-html-boiler-plate-js">
       let isBig = (4>2); // we must enclose the relevant calculation in brackets.
     </script>
-    <script src="assets/plugins/nmb-html-boiler-plate/nmb.interactive.js"></script>
+    <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
      ```
 
 2. **HTML**
@@ -153,7 +155,7 @@ document.addEventListener('nmbInteractiveLoaded', function (e) {
     <script id="nmb-html-boiler-plate-js">
       let isActiveClass = "open"; // we must enclose the relevant calculation in brackets.
     </script>
-    <script src="assets/plugins/nmb-html-boiler-plate/nmb.interactive.js"></script>
+    <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
      ```
 
 2. **HTML**

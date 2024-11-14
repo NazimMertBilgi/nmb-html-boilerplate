@@ -41,7 +41,7 @@ Bu eklenti yalnızca 5KB boyutundadır. ☺️
 <script id="nmb-html-boiler-plate-js">
    let helloWorld = "Hello World";
 </script>
-<script src="assets/plugins/nmb-html-boiler-plate/nmb.interactive.js"></script>
+<script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
 ```
 **HTML**
 ```html

@@ -2,53 +2,7 @@
 
 # NMBInteractiveJS (nmb-interactive-js)
 
-The `NMBInteractiveJS` class is designed to handle interactive JavaScript elements within an HTML document. It allows for dynamic updates of variables and their corresponding DOM elements.
-
-## Constructor
-
-### `constructor(scriptId: string)`
-
-- **Parameters:**
-  - `scriptId`: The ID of the script element to be handled.
-
-## Methods
-
-### `async init(scriptId: string)`
-
-Initializes the handler by fetching the script content, initializing variables, creating proxies, updating the DOM, and dispatching a custom event.
-
-### `async fetchScriptContent()`
-
-Fetches the content of the script element.
-
-### `initVariables()`
-
-Initializes the variables found within the script content.
-
-### `createProxies()`
-
-Creates proxies for the variables to handle changes and update the DOM accordingly.
-
-### `handleVariableChange(key: string, value: any)`
-
-Handles changes to the variables and dispatches a custom event.
-
-### `updateVariableInDOM(key: string, value: any)`
-
-Updates the DOM elements that are bound to the variables.
-
-### `updateDOM()`
-
-Updates the DOM by replacing placeholders with the corresponding variable values.
-
-### `nmbInteractiveLoaded`
-
-Dispatches a custom event indicating that the interactive script has been loaded.
-
-### `nmbInteractiveVariableChanged`
-
-You can catch when the value of a variable is updated.
-
+The `NMBInteractiveJS` plugin is designed to handle interactive JavaScript elements within an HTML document. It allows for dynamic updates of variables and their corresponding DOM elements.
 
 ## Variable Types
 
@@ -211,3 +165,48 @@ document.addEventListener('nmbInteractiveLoaded', function (e) {
     ```html
     <h2 class="open"></h2> 
     ```
+
+    ## Constructor
+
+### `constructor(scriptId: string)`
+
+- **Parameters:**
+  - `scriptId`: The ID of the script element to be handled.
+
+## Methods
+
+### `async init(scriptId: string)`
+
+Initializes the handler by fetching the script content, initializing variables, creating proxies, updating the DOM, and dispatching a custom event.
+
+### `async fetchScriptContent()`
+
+Fetches the content of the script element.
+
+### `initVariables()`
+
+Initializes the variables found within the script content.
+
+### `createProxies()`
+
+Creates proxies for the variables to handle changes and update the DOM accordingly.
+
+### `handleVariableChange(key: string, value: any)`
+
+Handles changes to the variables and dispatches a custom event.
+
+### `updateVariableInDOM(key: string, value: any)`
+
+Updates the DOM elements that are bound to the variables.
+
+### `updateDOM()`
+
+Updates the DOM by replacing placeholders with the corresponding variable values.
+
+### `nmbInteractiveLoaded`
+
+Dispatches a custom event indicating that the interactive script has been loaded.
+
+### `nmbInteractiveVariableChanged`
+
+You can catch when the value of a variable is updated.

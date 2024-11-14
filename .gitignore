@@ -4,6 +4,10 @@ node_modules/
 # Dist
 dist
 
+#try.js
+
+try.js
+
 # Logs
 logs/
 *.log

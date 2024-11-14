@@ -1,4 +1,4 @@
-class NMBInteractiveHandler {
+class NMBInteractiveJSHandler {
     constructor(scriptId) {
         this.scriptElement = document.getElementById(scriptId);
         this.init(scriptId);
@@ -192,4 +192,4 @@ class NMBInteractiveHandler {
     }
 }
 
-new NMBInteractiveHandler("nmb-html-boiler-plate-js");
+new NMBInteractiveJSHandler("nmb-html-boiler-plate-js");

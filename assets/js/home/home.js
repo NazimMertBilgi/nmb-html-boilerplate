@@ -1,6 +1,6 @@
 const helloWorld = "Hello World!";
 const firstImg = "assets/img/cat.jpeg";
-const calculate = (2 * 5);
+let calculate = (2*2); // we must enclose the relevant calculation in brackets.
 const calculateText = "2 * 5";
 
 changeHelloWorldText = () => {

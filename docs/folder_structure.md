@@ -11,6 +11,8 @@ This document outlines the folder structure for the `nmb-html-boilerplate` proje
 │   ├── js
 │   └── plugins
 ├── dist
+├── index.html
+├── other html files....
 ```
 
 ## `/assets`

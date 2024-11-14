@@ -2,12 +2,6 @@
 
 **Version:** 0.0.3
 
-Please visit this page for detailed documentation. [NMB HTML Boilerplate Documentation](https://nazimmertbilgi.github.io/nmb-html-boilerplate)
-
-- Turkish
-
-Detaylı dökümantasyon için lütfen bu sayfayı ziyaret edin.[NMB HTML Boilerplate Dökümantasyon](https://nazimmertbilgi.github.io/nmb-html-boilerplate)
-
 # Description
 Application boilerplate for making websites with HTML, Bootstrap, and jQuery. You don't have to depend on these plugins, you can develop with whatever technologies you want to develop with. Compresses CSS, JS, and image files. Converts all images to WebP format. Automatically makes changes to all HTML files. You only focus on the coding part.
 

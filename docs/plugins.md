@@ -19,7 +19,7 @@ follow these steps:
     <script id="nmb-html-boiler-plate-js" src="assets/js/home/home.js"></script>
     <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
     // or
-    <script src="https://raw.githubusercontent.com/NazimMertBilgi/nmb-html-boilerplate/refs/heads/master/assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/NazimMertBilgi/nmb-html-boilerplate/assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
     ```
 
     or

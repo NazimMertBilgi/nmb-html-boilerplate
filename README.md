@@ -48,6 +48,8 @@ Bu eklenti yalnızca 5KB boyutundadır. ☺️
    let helloWorld = "Hello World";
 </script>
 <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
+// or
+<script src="https://cdn.jsdelivr.net/gh/NazimMertBilgi/nmb-html-boilerplate/assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
 ```
 **HTML**
 ```html

@@ -132,7 +132,7 @@ document.addEventListener('nmbInteractiveLoaded', function (e) {
 1. **JS**
 ```javascript
     <script id="nmb-html-boiler-plate-js">
-      let isBig = (4>2); // we must enclose the relevant calculation in brackets.
+      let isBig = (4>2); // we should put the relevant situation in brackets.
     </script>
     <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
      ```
@@ -153,7 +153,7 @@ document.addEventListener('nmbInteractiveLoaded', function (e) {
 1. **JS**
 ```javascript
     <script id="nmb-html-boiler-plate-js">
-      let isActiveClass = "open"; // we must enclose the relevant calculation in brackets.
+      let isActiveClass = "open"; 
     </script>
     <script src="assets/plugins/nmb-html-boiler-plate/nmb-interactive-js/nmb.interactive.min.js"></script>
      ```

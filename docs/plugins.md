@@ -4,6 +4,8 @@
 
 The `NMBInteractiveJS` plugin is designed to handle interactive JavaScript elements within an HTML document. It allows for dynamic updates of variables and their corresponding DOM elements.
 
+See an example in [Codepen](https://codepen.io/nmbjs/pen/vYoMmGm)
+
 ## Variable Types
 
 NMBInteractiveJS supports 3 variable types; `const` `let` `var`

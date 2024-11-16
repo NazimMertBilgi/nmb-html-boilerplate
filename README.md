@@ -40,6 +40,8 @@ Bu eklenti yalnızca 5KB boyutundadır. ☺️
 
 `NMBInteractiveJS` eklentisi, bir HTML belgesi içindeki etkileşimli JavaScript öğelerini işlemek için tasarlanmıştır. Değişkenlerin ve bunlara karşılık gelen DOM öğelerinin dinamik olarak güncellenmesine olanak tanır.
 
+See an example in [Codepen](https://codepen.io/nmbjs/pen/vYoMmGm)
+
 ### Example
 
 **JS**
